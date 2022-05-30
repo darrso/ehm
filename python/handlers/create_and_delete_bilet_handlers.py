@@ -5,14 +5,11 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import types, Dispatcher
 from aiogram.types.message import ContentType
 import sys
-
-
-sys.path.append("python")
-from states.states_bot import NewBilet, DeleteBilet
-from config import admin_id
-
-sys.path.append("EHM")
+sys.path.append("ehm")
 from python.bilets_funcs import add_bilet_to_json, delete_bilet
+from python.states.states_bot import NewBilet, DeleteBilet
+from python.config import admin_id
+
 
 # ________CREATE BILET__________
 

@@ -33,7 +33,6 @@ async def main():
     register_add_photos_handlers(dp)
 
     await dp.start_polling()
-    await dp.idle
 
 
 if __name__ == '__main__':
