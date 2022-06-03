@@ -23,7 +23,7 @@ async def menu_command(message: types.Message):
 # /bilets
 async def get_all_bilets(message:types.Message):
     text = get_all_name_bilets() + "\nВернуться в меню - /menu"
-    await message.answer(text)
+    await message.answer(text, reply_markup=bilets_bttns)
 
 
 def register_start_help_commands(dp: Dispatcher):
