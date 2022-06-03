@@ -74,17 +74,5 @@
         "images": [
             null
         ]
-    },
-    "bilet_6": {
-        "bilet_name": "A",
-        "bilet_questions": [
-            "a"
-        ],
-        "bilet_answers": [
-            "a"
-        ],
-        "images": [
-            null
-        ]
     }
 }
