@@ -14,7 +14,7 @@ async def start_command(message: types.Message):
 
 # /help
 async def help_command(message: types.Message):
-    await message.answer("/menu - главное меню")
+   await message.answer("/menu - главное меню")
 
 # /menu
 async def menu_command(message: types.Message):

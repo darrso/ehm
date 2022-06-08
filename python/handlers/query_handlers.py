@@ -10,7 +10,10 @@ async def return_bilet_q(query: types.CallbackQuery):
     data = get_bilet(query.data)
     text = f"Название билета - <b>{data['bilet_name']}</b>\n\n"
     for i in range(len(data["bilet_questions"])):
-        text += f'<b>{data["bilet_questions"][i]}</b>' + '\n' + data["bilet_answers"][i] + "\n\n\n"
+        try:
+            text += f'<b>{data["bilet_questions"][i]}</b>' + '\n' + data["bilet_answers"][i] + "\n\n\n"
+        except IndexError:
+            text = "Error: билет сформирован неправильно."
     await query.message.answer(text)
     
     media = types.MediaGroup()
