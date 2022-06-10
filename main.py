@@ -1,7 +1,6 @@
 import asyncio
 import logging
 
-from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 
