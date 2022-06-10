@@ -14,15 +14,11 @@ from python.handlers.query_handlers import register_query_handlers
 from python.handlers.defolt_commands import register_start_help_commands
 from python.handlers.add_photos_handlers import register_add_photos_handlers
 
-logging.basicConfig(level=logging.INFO)
-bot = Bot(token=bToken, parse_mode=types.ParseMode.HTML)
-dp = Dispatcher(bot, storage=MemoryStorage())
-
-dp.middleware.setup(LoggingMiddleware())
 
 async def main():
     bot = Bot(token=bToken, parse_mode=types.ParseMode.HTML)
     dp = Dispatcher(bot, storage=MemoryStorage())
+    logging.basicConfig(level=logging.INFO)
     await bot.set_my_commands([BotCommand(command="/start", description="Запуск бота"),
     BotCommand("create_new", description="Создать новый билет"), BotCommand("menu", "Главное меню"), BotCommand("bilets", "Посмотреть список билетов"),
     BotCommand("add_photos", "Добавить билеты"), BotCommand("delete_bilet", "Удалить билет")]) 

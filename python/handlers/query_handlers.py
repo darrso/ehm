@@ -3,8 +3,8 @@ from aiogram.utils.exceptions import BadRequest
 import sys
 
 sys.path.append("EHM")
-from python.bilets_funcs import get_bilet
 
+from python.bilets_funcs import get_bilet
 
 async def return_bilet_q(query: types.CallbackQuery):
     data = get_bilet(query.data)
