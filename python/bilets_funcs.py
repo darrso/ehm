@@ -18,7 +18,7 @@ def add_bilet_to_json(data=None, image=None):
     data_parse[name_bilet] = {'bilet_name': data["bilet_name"],
      'bilet_questions': data["ques"],
      'bilet_answers': data["anss"],
-     'images': [image]}
+     'images': []}
 
     dumps_bilets("base/bilets.json", data_parse)
 

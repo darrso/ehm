@@ -13,7 +13,7 @@ async def add_photo_start(message: types.Message):
     await AddPhoto.adding_0.set()
 
 async def add_photo_save_choosen_bilet(query: types.CallbackQuery, state: FSMContext):
-    data = query.data[-1]
+    data = query.data[-1] if query.data[-2] not in "1234" else query.data[6:]
     await query.answer(f"Вы выбрали билет № {data}")
     await query.message.answer('Отправьте изображения, которые хотите добавить в билет.\nКогда закончите, отправьте - "стоп"')
     await state.update_data(number=data)
