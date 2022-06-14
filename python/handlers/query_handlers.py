@@ -1,5 +1,5 @@
 from aiogram import types, Dispatcher
-from aiogram.utils.exceptions import BadRequest
+from aiogram.utils.exceptions import BadRequest, ValidationError
 import sys
 
 sys.path.append("EHM")
@@ -22,6 +22,8 @@ async def return_bilet_q(query: types.CallbackQuery):
     try:
         await query.message.answer_media_group(media)
     except BadRequest:
+        pass
+    except ValidationError:
         pass
 
 def register_query_handlers(dp: Dispatcher):
