@@ -168,6 +168,13 @@
             "\n<b>Первый замечательный предел раскрывает неопределенность вида 0 на 0.</b>:\n\nlim   sina/a    = 1  \na->0\n\nравенство основано на эквивалентности бесконечно малых sinx~x\n\n\nБлагодаря <b>второму замечательному пределу</b> и его последствиям можно исследовать неопределенности типа ноль разделить на ноль, единица в степени бесконечность, и бесконечность разделить на бесконечность:\n\nlim(1 + 1/x) ^ x    = e\nx->∞\n",
             "\nФункция f(x) называется <b>бесконечно малой</b> при x→a, если \nlim(f(x))   = 0\nx->a⁡\n\nФункция f(x) называется <b>бесконечно большой</b> при x->a, если \nlim(f(x))   = ∞  (или +∞, или -∞)\nx->a\n\n<b>Эквивалентность</b> – это равнозначность (или равноценность) в каком-нибудь отношении.\nЕсли отношение двух бесконечно малых равен 1, то они эквивалентны."
         ],
-        "images": []
+        "images": [
+            "AgACAgIAAxkBAAIj22Ko21UEFHf0I57K1vV8krZKUwQMAAJ3vTEbqrZJSYt2iv6n5jYEAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIj3GKo21UggOh3NjhR0QRUJnU45Gn7AAJ4vTEbqrZJSUYanDbv50ijAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIj3WKo21WZfXiFbhAl2V7qWa-LJDOKAAJ6vTEbqrZJSUUGdw5Uc61LAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIj3mKo21Uxw2rpJXhbk_5l6jOnzBFgAAJ7vTEbqrZJSYu7nmc73Hs1AQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIj32Ko21XxfTU5MeiioMqmeAWN_hpCAAJ8vTEbqrZJSZ0eitEAAR28JwEAAwIAA3MAAyQE",
+            "AgACAgIAAxkBAAIj4GKo21WzVtT_6bmBS7MbhkBc8vGOAAJ9vTEbqrZJSSODxYRhxUHbAQADAgADcwADJAQ"
+        ]
     }
 }
