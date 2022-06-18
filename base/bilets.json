@@ -176,5 +176,37 @@
             "AgACAgIAAxkBAAIj32Ko21XxfTU5MeiioMqmeAWN_hpCAAJ8vTEbqrZJSZ0eitEAAR28JwEAAwIAA3MAAyQE",
             "AgACAgIAAxkBAAIj4GKo21WzVtT_6bmBS7MbhkBc8vGOAAJ9vTEbqrZJSSODxYRhxUHbAQADAgADcwADJAQ"
         ]
+    },
+    "bilet_12": {
+        "bilet_name": "Односторонние пределы, непрерывные функции, точки разрыва, их классификация. примеры.",
+        "bilet_questions": [
+            "Односторонние пределы",
+            "Непрерывные функции",
+            "Точки разрыва, их классификация",
+            "Примеры."
+        ],
+        "bilet_answers": [
+            "Под <b>односторонним пределом</b> числовой функции подразумевают «приближение» к предельной точке с одной стороны. Такие пределы называют соответственно левосторонним пределом (или пределом слева) и правосторонним пределом (пределом справа).\n\nЧисло b ϵ R называется <b>правосторонним пределом</b> (правым пределом) функции f(x) в точке a, если для всякой последовательности \\{x_n\\},(x_n больше a), которая сама сходится к числу a, соответствующая последовательность значений функции \\{f(x_n)\\} сходится к b.\n\nЧисло b ϵ R называется левосторонним пределом (левым пределом) функции f(x) в точке a, если для всякой последовательности \\{x_n\\},v(x_n меньше a), которая сама сходится к числу a, соответствующая последовательность значений функции \\{f(x_n)\\} сходится к b.\n\n<i>Теорема. Для существования (двустороннего) предела функции необходимо и достаточно, чтобы оба односторонних предела существовали и равнялись между собой.</i>",
+            "\nФункция f(x) является непрерывной в точке a, если:\n1. функция f(x) определена в точке и ее окрестности\n2. существует конечный предел функции f(x) в точке a\n3. этот предел равен значению функции в точке a, т.е. \nlim f(x) = f(a)\nx->a",
+            "\nТочка <i>a</i>, в которой нарушено хотя бы одно из трех условий непрерывности называется <b>точкой разрыва функции</b>.\nТо есть, в точке разрыва, функция либо не определена, либо определена, но хотя бы один односторонний предел в этой точке или не существует, или не равен значению f(x_0) функции в точке x_0.\n\n<b>Точки разрыва первого рода</b>\nЕсли в точке a существуют конечные пределы f(a-0) и f(a+0), такие, что f(a-0)≠f(a+0) (неравны между собой), то точка a называется точкой разрыва первого рода.\nМодуль разности значений односторонних пределов |f(a+0)-f(a-0)| называется скачком функции.\n\n<b>Точка разрыва второго рода</b>\nЕсли хотя б один из пределов f(a-0) или f(a – 0) не существует или равен бесконечности, то точка a называется точкой разрыва второго рода.\n\n<b>Точка устранимого разрыва</b>\n Если существуют левый и правый пределы функции в точке, и они равны друг другу, но не совпадают со значением функции f(x) в точке a: f(a)≠f(a-0) или функция f(x) не определена в точке a, то точка a называется точкой устранимого разрыва.",
+            "\nНа рисунках"
+        ],
+        "images": [
+            "AgACAgIAAxkBAAIkWmKt45eo3GCWkXsmj9gFGT-svTGhAAJ4vDEbzftxSXTihTiudNP1AQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkW2Kt47DMwjOSN7o5a2UhHzD0j6dLAAJ5vDEbzftxSQeYqRwKbkM-AQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkXGKt48QEr3lK-TUHr2MBLpQftzyQAAJ7vDEbzftxSet9DPPZ_HocAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkXWKt498nHn0wjWomwnfkcWsT2nfMAAJ8vDEbzftxSTCuDdwh63gTAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkXmKt5DtwpqmzDpefUgo3msvuKOQpAAJ-vDEbzftxSVH2B335o0ihAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkX2Kt5EHH7fczBlWsTLEkv_XiB2HpAAJ_vDEbzftxSX1MXHKZFgABowEAAwIAA3MAAyQE",
+            "AgACAgIAAxkBAAIkYGKt5EbkOGnVuf2wp6wtCTB3KJl1AAKAvDEbzftxSZ0FPbDnIOYEAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkYWKt5GJSXt5Jc9xt1CE3ZKmMAysTAAKBvDEbzftxSdTudMfLHYNBAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkYmKt5Hm9ceUm8mtJu3eWfBaK25WaAAKCvDEbzftxSchwgrafSsKrAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkY2Kt5JxMDye3ZfRzWj68LcetDTMfAAKDvDEbzftxSRWaixHJy6keAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkZGKt5ML0RBzayFm4A6yXn7qj7UWLAAKEvDEbzftxSdI2v4Bk6PQiAQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkZWKt5M8cpAAB5AE2iSbaRUdZSyCQnAAChbwxG837cUlHFdtFgLKYfQEAAwIAA3MAAyQE",
+            "AgACAgIAAxkBAAIkZmKt5Nf_qaurkg9Lm7ZV1LfjY36kAAKGvDEbzftxSVK0rolzbXh9AQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkZ2Kt5N5YNNodfC81owd3rb06T_6YAAKHvDEbzftxSUYljGL8uCf9AQADAgADcwADJAQ",
+            "AgACAgIAAxkBAAIkaGKt5OtFzTyc-4AKo_vdmixoo5C4AAKIvDEbzftxSS3nMmHpuFOXAQADAgADcwADJAQ"
+        ]
     }
 }
